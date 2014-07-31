@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   filters,
   javaJdbc,
   javaEbean,
-  "org.postgresql" % "postgresql" % "9.3-1102-jdbc41",
+  "org.postgresql" % "postgresql" % "9.3-1102-jdbc3",
   "org.webjars" % "jquery" % "2.1.1",
   "org.webjars" % "ratchet" % "2.0.2"
 )
