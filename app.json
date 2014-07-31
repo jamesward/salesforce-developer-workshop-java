@@ -1,0 +1,20 @@
+{
+  "name": "Salesforce Developer Workshop for Java",
+  "description": "Salesforce Developer Workshop for Java",
+  "keywords": [ "playframework", "salesforce", "javascript" ],
+  "website": "https://developer.salesforce.com",
+  "repository": "https://github.com/developerforce/salesforce-developer-workshop-java",
+  "logo": "https://pbs.twimg.com/profile_images/462384100494438400/CRyX_n9b.png",
+  "success_url": "/",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-scala",
+    "APPLICATION_SECRET": {
+      "description": "A secret used internally by Play",
+      "required": true,
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    "herokuconnect"
+  ]
+}
