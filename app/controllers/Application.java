@@ -14,7 +14,7 @@ public class Application extends Controller {
         return ok(index.render());
     }
 
-    public static Result getContacts() {
+    public static Result getSessions() {
         List<Session> sessions = Session.find.all();
         return ok(Json.toJson(sessions));
     }
