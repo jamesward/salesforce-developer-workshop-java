@@ -1,5 +1,5 @@
 {
-  "name": "Salesforce Developer Workshop for Java",
+  "name": "Salesforce Java Dev Workshop",
   "description": "Salesforce Developer Workshop for Java",
   "keywords": [ "playframework", "salesforce", "javascript" ],
   "website": "https://developer.salesforce.com",
@@ -15,6 +15,7 @@
     }
   },
   "addons": [
+    "heroku-postgresql",
     "herokuconnect"
   ]
 }
